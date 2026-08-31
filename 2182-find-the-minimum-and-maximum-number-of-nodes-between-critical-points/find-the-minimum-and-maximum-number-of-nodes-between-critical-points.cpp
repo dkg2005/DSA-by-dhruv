@@ -31,8 +31,8 @@ public:
             next = next->next;
             cnt++;
         }
-        for(auto x :criticalPoints) cout << x << " ";
-        sort(criticalPoints.begin(), criticalPoints.end());
+        // for(auto x :criticalPoints) cout << x << " ";
+        // sort(criticalPoints.begin(), criticalPoints.end());
         int n = criticalPoints.size();
         if( n < 2) return {-1, -1};
         int maxDist = criticalPoints[n-1] - criticalPoints[0];
