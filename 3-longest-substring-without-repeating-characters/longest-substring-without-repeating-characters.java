@@ -11,7 +11,7 @@ class Solution {
                 i++;
             }
             st.add(ch);
-            maxLen = Math.max(maxLen, st.size());
+            maxLen = Math.max(maxLen, r-i+1);
         }  
         return maxLen; 
     }
